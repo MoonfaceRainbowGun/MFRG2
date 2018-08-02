@@ -1,0 +1,956 @@
+{
+    "x": 5,
+    "y": 0,
+    "data": [
+        [
+            {
+                "ssid": " Garena16 ",
+                "bssid": " 00:3a:7d:13:2d:0f ",
+                "rssi": -59
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:a8:cf ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:20 ",
+                "rssi": -89
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:2f ",
+                "rssi": -77
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:f0 ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:ff ",
+                "rssi": -57
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:e3:ff ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:11:2b:80 ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7a:80 ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7a:8f ",
+                "rssi": -82
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:7f ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:20:4c:10 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:20:4c:1f ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:5f ",
+                "rssi": -83
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:e0 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:ef ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:ff ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:da:20 ",
+                "rssi": -56
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:da:2f ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:42:91:9f ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:c0 ",
+                "rssi": -73
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:cf ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ad:cc:5f ",
+                "rssi": -78
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:3f ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " 00:3a:7d:13:2d:0e ",
+                "rssi": -61
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:07:b6:11 ",
+                "rssi": -88
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:ce ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:aa:2e ",
+                "rssi": -74
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:fe ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:e3:fe ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:11:2b:81 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:19:7c:7e ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:20:4c:1e ",
+                "rssi": -59
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:51 ",
+                "rssi": -73
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:5e ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:ee ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:d9:fe ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:da:21 ",
+                "rssi": -62
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:da:2e ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:ce ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ad:cc:5e ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:31 ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:3e ",
+                "rssi": -64
+            }
+        ],
+        [
+            {
+                "ssid": " Garena16 ",
+                "bssid": " 00:3a:7d:13:2d:0f ",
+                "rssi": -59
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:a8:cf ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:20 ",
+                "rssi": -89
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:2f ",
+                "rssi": -77
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:f0 ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:ff ",
+                "rssi": -63
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:e3:ff ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:11:2b:80 ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7a:80 ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7a:8f ",
+                "rssi": -82
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:70 ",
+                "rssi": -79
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:7f ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:20:4c:1f ",
+                "rssi": -59
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:5f ",
+                "rssi": -79
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:e0 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:ef ",
+                "rssi": -88
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:f0 ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:ff ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:da:20 ",
+                "rssi": -56
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:da:2f ",
+                "rssi": -79
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:42:91:9f ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:c0 ",
+                "rssi": -73
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:cf ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ad:cc:5f ",
+                "rssi": -78
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:3f ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " 00:3a:7d:13:2d:0e ",
+                "rssi": -61
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:c1 ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:ce ",
+                "rssi": -67
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:aa:2e ",
+                "rssi": -74
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:f1 ",
+                "rssi": -69
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:fe ",
+                "rssi": -62
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:e3:fe ",
+                "rssi": -87
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:19:7c:7e ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:20:4c:1e ",
+                "rssi": -59
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:51 ",
+                "rssi": -73
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:5e ",
+                "rssi": -79
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:e1 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:ee ",
+                "rssi": -88
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:d9:fe ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:da:2e ",
+                "rssi": -78
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:ce ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ad:cc:5e ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:31 ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:3e ",
+                "rssi": -72
+            }
+        ],
+        [
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:a8:cf ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:20 ",
+                "rssi": -89
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:ff ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:e3:ff ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:70 ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:7f ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:20:4c:1f ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:50 ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:5f ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:e0 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:ef ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:f0 ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:ff ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:da:2f ",
+                "rssi": -80
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:c0 ",
+                "rssi": -73
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:cf ",
+                "rssi": -61
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:30 ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:3f ",
+                "rssi": -80
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:c1 ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:ce ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:f1 ",
+                "rssi": -69
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:fe ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:e3:fe ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:19:7c:7e ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:20:4c:1e ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:51 ",
+                "rssi": -73
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:5e ",
+                "rssi": -72
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:e1 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:ee ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:d9:fe ",
+                "rssi": -67
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:da:2e ",
+                "rssi": -81
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:c1 ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:ce ",
+                "rssi": -61
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ad:cc:5e ",
+                "rssi": -86
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:31 ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:3e ",
+                "rssi": -84
+            }
+        ],
+        [
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:a8:cf ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:20 ",
+                "rssi": -80
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:ff ",
+                "rssi": -82
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:e3:ff ",
+                "rssi": -74
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:70 ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:7f ",
+                "rssi": -55
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:20:4c:1f ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:50 ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:5f ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:ef ",
+                "rssi": -77
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:f0 ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:ff ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:da:2f ",
+                "rssi": -80
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:cf ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:30 ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:3f ",
+                "rssi": -83
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " 00:3a:7d:13:2d:0e ",
+                "rssi": -82
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:c1 ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:ce ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:aa:21 ",
+                "rssi": -79
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:aa:2e ",
+                "rssi": -87
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:f1 ",
+                "rssi": -69
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:fe ",
+                "rssi": -83
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:e3:fe ",
+                "rssi": -74
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:19:7c:7e ",
+                "rssi": -55
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:20:4c:1e ",
+                "rssi": -71
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:51 ",
+                "rssi": -54
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:5e ",
+                "rssi": -65
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:e1 ",
+                "rssi": -85
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:ee ",
+                "rssi": -77
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:d9:fe ",
+                "rssi": -68
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:da:2e ",
+                "rssi": -81
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:c1 ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:ce ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:ec:84:3e ",
+                "rssi": -84
+            }
+        ],
+        [
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:a8:cf ",
+                "rssi": -57
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:aa:20 ",
+                "rssi": -80
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:ad:ff ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:10:e3:ff ",
+                "rssi": -76
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:70 ",
+                "rssi": -64
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:19:7c:7f ",
+                "rssi": -55
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:20:4c:1f ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:50 ",
+                "rssi": -70
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:2e:f0:5f ",
+                "rssi": -67
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:37:1e:ef ",
+                "rssi": -77
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " a4:6c:2a:46:d9:ff ",
+                "rssi": -60
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:a8:e1:cf ",
+                "rssi": -54
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:30 ",
+                "rssi": -84
+            },
+            {
+                "ssid": " Garena16 ",
+                "bssid": " b0:aa:77:ec:84:3f ",
+                "rssi": -80
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " 00:3a:7d:13:2d:0e ",
+                "rssi": -82
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:a8:ce ",
+                "rssi": -57
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:aa:21 ",
+                "rssi": -79
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:aa:2e ",
+                "rssi": -87
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:ad:fe ",
+                "rssi": -75
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:10:e3:fe ",
+                "rssi": -76
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:19:7c:7e ",
+                "rssi": -54
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:20:4c:1e ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:51 ",
+                "rssi": -54
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:2e:f0:5e ",
+                "rssi": -67
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:37:1e:ee ",
+                "rssi": -77
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:d9:f1 ",
+                "rssi": -58
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:d9:fe ",
+                "rssi": -61
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " a4:6c:2a:46:da:2e ",
+                "rssi": -81
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:c1 ",
+                "rssi": -66
+            },
+            {
+                "ssid": " Garena17 ",
+                "bssid": " b0:aa:77:a8:e1:ce ",
+                "rssi": -54
+            }
+        ]
+    ]
+}
