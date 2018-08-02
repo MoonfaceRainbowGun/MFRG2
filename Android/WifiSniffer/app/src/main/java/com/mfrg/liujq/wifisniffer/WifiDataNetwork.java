@@ -7,18 +7,18 @@ import android.os.Parcelable;
 public class WifiDataNetwork implements Comparable<WifiDataNetwork>, Parcelable {
     private String bssid;
     private String ssid;
-    private int level;
+    private int rssi;
 
     public WifiDataNetwork(ScanResult result) {
         bssid = result.BSSID;
         ssid = result.SSID;
-        level = result.level;
+        rssi = result.level;
     }
 
     public WifiDataNetwork(Parcel in) {
         bssid = in.readString();
         ssid = in.readString();
-        level = in.readInt();
+        rssi = in.readInt();
     }
 
     public static final Creator<WifiDataNetwork> CREATOR = new Creator<WifiDataNetwork>() {
@@ -47,17 +47,17 @@ public class WifiDataNetwork implements Comparable<WifiDataNetwork>, Parcelable 
         this.ssid = ssid;
     }
 
-    public int getLevel() {
-        return level;
+    public int getRssi() {
+        return rssi;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
+    public void setRssi(int rssi) {
+        this.rssi = rssi;
     }
 
     @Override
     public int compareTo(WifiDataNetwork another) {
-        return another.level - this.level;
+        return another.rssi - this.rssi;
     }
 
     @Override
@@ -69,11 +69,11 @@ public class WifiDataNetwork implements Comparable<WifiDataNetwork>, Parcelable 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(bssid);
         dest.writeString(ssid);
-        dest.writeInt(level);
+        dest.writeInt(rssi);
     }
 
     @Override
     public String toString() {
-        return ssid + " addr:" + bssid + " lev:" + level;
+        return ssid + " addr:" + bssid + " lev:" + rssi;
     }
 }

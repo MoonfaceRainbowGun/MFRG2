@@ -9,27 +9,17 @@ import android.content.pm.PackageManager;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Build;
-import android.os.Handler;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.view.View.OnClickListener;
-
-import com.google.gson.JsonObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 
 import okhttp3.MediaType;
@@ -80,11 +70,12 @@ public class MainActivity extends AppCompatActivity {
                 size = results.size();
             }
         }, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+
     }
 
     public void onSubmit(View v) {
 
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, PERMISSIONS_REQUEST_CODE_ACCESS_COARSE_LOCATION);
         }
 
@@ -120,9 +111,6 @@ public class MainActivity extends AppCompatActivity {
             Collections.sort(results, new Comparator<ScanResult>() {
                 @Override
                 public int compare(ScanResult scanResult, ScanResult scanResult2) {
-                    //  return 1 if rhs should be before lhs
-                    //  return -1 if lhs should be before rhs
-                    //  return 0 otherwise
                     if (scanResult.level > scanResult2.level) {
                         return -1;
                     } else if (scanResult.level < scanResult2.level) {
@@ -133,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
             });
 
             unregisterReceiver(this);
-
             for (ScanResult result : results) {
                 String ssid = result.SSID;
                 if (ssid.startsWith("Garena1")) {
@@ -143,30 +130,38 @@ public class MainActivity extends AppCompatActivity {
             }
             size = arrayList.size();
 
-            for(WifiDataNetwork wifi: arrayList) {
+            for (WifiDataNetwork wifi: arrayList) {
                 Log.v(TAG, "  SSID        =" + wifi.getSsid());
                 Log.v(TAG, "  BSSID       =" + wifi.getBssid());
-                Log.v(TAG, "  Level       =" + wifi.getLevel());
+                Log.v(TAG, "  Level       =" + wifi.getRssi());
                 Log.v(TAG, "---------------");
             }
 
             ReferencePoint rp = new ReferencePoint(x, y, arrayList);
-            String rpJSON = rp.getJSON();
-            Log.v(TAG, "body: " + rpJSON);
+            final String rpJSON = rp.getJSON();
 
-            RequestBody body = RequestBody.create(JSON, rpJSON);
-            Request request = new Request.Builder()
-                    .url(URL_TRAIN)
-                    .post(body)
-                    .build();
+            Thread networkThread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    post(URL_TRAIN, rpJSON);
+                }
+            });
+
+            networkThread.start();
+        }
+
+        private void post(String url, String json) {
+            RequestBody body = RequestBody.create(JSON, json);
+            Log.v(TAG, "request: " + json);
+            Request request = new Request.Builder().url(url).post(body).build();
             try {
                 Response response = client.newCall(request).execute();
                 responseBody = response.body().toString();
                 Log.v(TAG, "response: " + responseBody);
             } catch (IOException e) {
+                Log.v(TAG, e.toString());
                 e.printStackTrace();
             }
-
         }
     }
 }
