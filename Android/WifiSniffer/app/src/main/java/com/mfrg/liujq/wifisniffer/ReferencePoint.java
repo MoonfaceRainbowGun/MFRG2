@@ -5,13 +5,11 @@ import com.google.gson.Gson;
 import java.util.ArrayList;
 
 public class ReferencePoint {
-    private int x;
-    private int y;
+    private String id;
     private ArrayList<WifiDataNetwork> data;
 
-    public ReferencePoint(int x, int y, ArrayList<WifiDataNetwork> data) {
-        this.x = x;
-        this.y = y;
+    public ReferencePoint(String id, ArrayList<WifiDataNetwork> data) {
+        this.id = id;
         this.data = data;
     }
 
