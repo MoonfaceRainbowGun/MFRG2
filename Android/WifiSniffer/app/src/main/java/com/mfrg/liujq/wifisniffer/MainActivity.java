@@ -10,6 +10,8 @@ import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Looper;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -42,21 +44,23 @@ public class MainActivity extends AppCompatActivity {
     private int size;
     private WifiListReceiver wifiReceiver;
     private static final int PERMISSIONS_REQUEST_CODE_ACCESS_COARSE_LOCATION = 1001;
-    private int x;
-    private int y;
+    private String blkId;
     private OkHttpClient client;
     private String responseBody;
-
+    private Context mainContext;
+    private Toast httpToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mainContext = this;
         wifiReceiver = new WifiListReceiver();
         mainWifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         arrayList = new ArrayList<WifiDataNetwork>();
         client = new OkHttpClient();
+        httpToast = new Toast(this);
         if (!mainWifi.isWifiEnabled()) {
             Toast.makeText(this, "wifi was not enabled", Toast.LENGTH_SHORT).show();
             mainWifi.setWifiEnabled(true);
@@ -64,8 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         registerReceiver(new BroadcastReceiver() {
             @Override
-            public void onReceive(Context c, Intent intent)
-            {
+            public void onReceive(Context c, Intent intent) {
                 results = mainWifi.getScanResults();
                 size = results.size();
             }
@@ -79,18 +82,29 @@ public class MainActivity extends AppCompatActivity {
             requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, PERMISSIONS_REQUEST_CODE_ACCESS_COARSE_LOCATION);
         }
 
+        TextView blkIdView = (TextView) findViewById(R.id.blkId);
+        blkId = blkIdView.getText().toString();
+
+        if (blkId.equals("")) {
+            Toast.makeText(this, "Please enter Office Block ID!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         arrayList.clear();
         registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
         mainWifi.startScan();
         Toast.makeText(this, "Scanning WiFi ...", Toast.LENGTH_SHORT).show();
 
-        TextView pointX = (TextView) findViewById(R.id.pointX);
-        TextView pointY = (TextView) findViewById(R.id.pointY);
-        x = Integer.parseInt(pointX.getText().toString());
-        y = Integer.parseInt(pointY.getText().toString());
-
         Log.v(TAG, "Wi-Fi Scan Results ... Count:" + size);
-        Toast.makeText(this, responseBody, Toast.LENGTH_SHORT).show();
+    }
+
+    public void httpCallback(Context context, String info){
+        new Handler(Looper.getMainLooper()).post(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(mainContext, responseBody, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
@@ -100,8 +114,6 @@ public class MainActivity extends AppCompatActivity {
             // TODO: What you want to do when it works or maybe .PERMISSION_DENIED if it works better
         }
     }
-
-
 
     class WifiListReceiver extends BroadcastReceiver {
 
@@ -131,13 +143,13 @@ public class MainActivity extends AppCompatActivity {
             size = arrayList.size();
 
             for (WifiDataNetwork wifi: arrayList) {
-                Log.v(TAG, "  SSID        =" + wifi.getSsid());
-                Log.v(TAG, "  BSSID       =" + wifi.getBssid());
-                Log.v(TAG, "  Level       =" + wifi.getRssi());
+                Log.v(TAG, "  SSID        = " + wifi.getSsid());
+                Log.v(TAG, "  BSSID       = " + wifi.getBssid());
+                Log.v(TAG, "  RSSI        = " + wifi.getRssi());
                 Log.v(TAG, "---------------");
             }
 
-            ReferencePoint rp = new ReferencePoint(x, y, arrayList);
+            ReferencePoint rp = new ReferencePoint(blkId, arrayList);
             final String rpJSON = rp.getJSON();
 
             Thread networkThread = new Thread(new Runnable() {
@@ -156,8 +168,9 @@ public class MainActivity extends AppCompatActivity {
             Request request = new Request.Builder().url(url).post(body).build();
             try {
                 Response response = client.newCall(request).execute();
-                responseBody = response.body().toString();
+                responseBody = response.body().string();
                 Log.v(TAG, "response: " + responseBody);
+                httpCallback(mainContext, responseBody);
             } catch (IOException e) {
                 Log.v(TAG, e.toString());
                 e.printStackTrace();
